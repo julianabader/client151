@@ -1,0 +1,28 @@
+.activity-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .6);
+}
+
+.activity-item-image {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.activity-item-title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
+
+.activity-item-description {
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+}

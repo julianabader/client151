@@ -1,0 +1,11 @@
+.child-item {
+    text-align: center;
+    font-size:14px;
+    margin:0 10px;
+}
+.child-item:first-child{
+   margin-left:0;
+}
+.child-item-name{
+    margin-bottom:5px;
+}

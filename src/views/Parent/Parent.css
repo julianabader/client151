@@ -1,0 +1,40 @@
+.parent-page-heading {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-bottom:10px;
+}
+
+.parent-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.parent-page-heading-right {
+    margin: 20px 0 0 20px;
+}
+
+.categories-container {
+    padding: 20px 0;
+    position: relative;
+}
+
+.categories-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10%;
+    right: 0;
+    width: 120%;
+    margin: 0 auto;
+    height: 3px;
+    box-shadow: 0px -5px 3px -1px rgba(0, 0, 0, .6);
+}
+
+.parent-page-heading-left {
+    display: flex;
+    align-items: center;
+}
